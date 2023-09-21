@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(237, 237, 237);
+}
+
+.zoneTop{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    height: 70px;
+    background-color: white;
+}
+
+#inputName{
+    width: 200px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#rangeInput{
+    cursor: pointer;
+}
+
+#btnOrdre{
+    width: 100px;
+    height: 30px;
+    margin-right: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.zoneCard{
+    margin: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.card{
+    width: 280px ;
+    height: 650px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+h2{
+    font-size: 1.3em;
+}
+
+img{
+    width: 250px;
+}
+
+.resume{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+
